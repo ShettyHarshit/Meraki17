@@ -4,9 +4,10 @@
 @import url('https://fonts.googleapis.com/css?family=Oswald:300');
 @import url('https://fonts.googleapis.com/css?family=Aclonica');
 @import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+
 @font-face {
-   font-family: 'TitleFont' ;
-   src: url('/fonts/Meraki.ttf') format('truetype');
+   font-family: TitleFont;
+   src: url('../fonts/Meraki.woff')  format('woff');
 }
 
 body {
@@ -97,6 +98,7 @@ background-image: url('https://static.pexels.com/photos/32237/pexels-photo.jpg')
   padding: 0px auto;
   margin: 5px auto;
   color: white;
+  font-size: 30px;
 }
 
 
