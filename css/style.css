@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: black;
+  /*background-color: black;*/
   /*background-image: url("http://www.dreamtemplate.com/dreamcodes/bg_images/color/c9.jpg");*/
 
   /*background: linear-gradient(125deg, #1c2120, #08409d);
@@ -20,21 +20,25 @@ background-size: 400% 400%;
 -moz-animation: AnimationName 43s ease infinite;
 animation: AnimationName 43s ease infinite;*/
 
-background: linear-gradient(180deg, #14178a, #8a1cd4);
+/*background: linear-gradient(180deg, #14178a, #8a1cd4);
 background-size: 400% 400%;
 
 -webkit-animation: AnimationName 16s ease infinite;
 -moz-animation: AnimationName 16s ease infinite;
-animation: AnimationName 16s ease infinite;
+animation: AnimationName 16s ease infinite;*/
+/*RECENT BG^^^*/
+background-image: url('https://static.pexels.com/photos/32237/pexels-photo.jpg');
+
+
+
 
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   padding-top: 65px;
-}
 
-@-webkit-keyframes AnimationName {
+  @-webkit-keyframes AnimationName {
     0%{background-position:17% 0%}
     50%{background-position:84% 100%}
     100%{background-position:17% 0%}
@@ -54,6 +58,9 @@ animation: AnimationName 16s ease infinite;
     50%{background-position:84% 100%}
     100%{background-position:17% 0%}
 }
+}
+
+
 
 
 .container-fluid {
@@ -153,7 +160,7 @@ animation: AnimationName 16s ease infinite;
   text-align: center;
   padding: 15px;
   margin: auto;
-  width: 400px;
+  width: 540px;
   border: 5px #fff;
 }
 
@@ -193,6 +200,17 @@ animation: AnimationName 16s ease infinite;
 
 .twitter:hover {
   background-color: #00aced;
+}
+
+.snapchat {
+  padding: 10px 14px;
+  -webkit-transition: .5s;
+  transition: 0.6s ease;
+  background-color: rgba(76, 5, 0, 0);
+}
+
+.snapchat:hover {
+  background-color: #fffc00;
 }
 
 .event-date {
