@@ -216,6 +216,17 @@ background-image: url('https://static.pexels.com/photos/32237/pexels-photo.jpg')
   background-color: #fffc00;
 }
 
+.youtube {
+  padding: 10px 14px;
+  -webkit-transition: .5s;
+  transition: 0.6s ease;
+  background-color: rgba(76, 5, 0, 0);
+}
+
+.youtube:hover {
+  background-color: #b31217;
+}
+
 .event-date {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -352,6 +363,9 @@ font-family: 'Raleway', sans-serif;
   width: 80%;
 }
 
+.social-icons {
+width: 100%;
+}
 
 
 
