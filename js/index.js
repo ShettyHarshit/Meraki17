@@ -66,3 +66,20 @@ function openCity(evt, cityName) {
 
 
 // END OF EVENTS TAB
+
+
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
+
+
+$(window).resize(function(){
+   var width = $(window).width();
+   if(width < 768){
+       $('#navbar-right-check').removeClass('cl-effect-21');
+       console.log('works');
+   }
+})
+.resize();

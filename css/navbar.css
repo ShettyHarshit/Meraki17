@@ -1,0 +1,78 @@
+.navbar {
+   background-color: #151f20;
+   position: absolute;
+  overflow:hidden;
+   border-color: transparent;
+   
+}
+
+.force-color {
+    color: #FFF;
+}
+
+
+
+.navbar li { 
+  color: #000;
+  background-color: #151f20; 
+}
+
+
+.force-color-2{
+  background-color: #151f20;
+}
+
+.navbar-nav li a {
+
+  line-height: 40px;
+  height: 40px;
+  padding: 0px;
+  margin: 10px;
+}
+
+.navbar-brand {
+  font-family: TitleFont;
+  /*font-family: 'Aclonica', sans-serif;*/
+  border: 0px solid blue;
+  padding: 0px auto;
+  margin: 5px auto;
+  color: white;
+  font-size: 30px;
+}
+
+
+
+.navbar-border {}
+
+.navbar-nav-main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.prevent{
+  overflow:hidden;
+}
+
+.wheel{
+  margin-top: -65px;
+}
+
+.navbar-check {}
+
+.navbar img
+{
+  position: absolute;
+  -webkit-animation-name: rotate; 
+    -webkit-animation-duration: 90s; 
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
+}
