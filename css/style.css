@@ -202,7 +202,9 @@ background-image: url('https://static.pexels.com/photos/32237/pexels-photo.jpg')
   border: 1px solid blue;
 }
 
-
+.cl-effect-21 {
+  background-color: #151f20;
+}
 
 .cl-effect-21 a {
   padding: 100x;
@@ -259,6 +261,7 @@ background-image: url('https://static.pexels.com/photos/32237/pexels-photo.jpg')
   -moz-transform: translateY(0px);
   transform: translateY(0px);
 }
+
 
 
 
@@ -332,9 +335,6 @@ font-family: 'Raleway', sans-serif;
 width: 100%;
 }
 
-.navbar-nav li a {
-  padding: 10px;
-  margin: 0px;
 }
 
 

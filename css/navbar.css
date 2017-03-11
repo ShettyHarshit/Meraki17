@@ -1,13 +1,14 @@
 .navbar {
    background-color: #151f20;
-   position: absolute;
+   position: fixed;
   overflow:hidden;
    border-color: transparent;
-   
+   z-index:10;
 }
 
 .force-color {
     color: #FFF;
+    z-index: 5;
 }
 
 
@@ -55,6 +56,7 @@
 
 .wheel{
   margin-top: -65px;
+  z-index: -1;
 }
 
 .navbar-check {}
@@ -75,4 +77,20 @@
   to { 
     -webkit-transform: rotate(360deg);
   }
+}
+
+
+@media(max-width: 768px) {
+
+.navbar-nav li a {
+  padding: 10px;
+  margin: 0px;
+}
+
+.navbar-nav {
+  margin-top: -10px;
+}
+
+
+
 }
