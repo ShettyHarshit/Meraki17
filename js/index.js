@@ -102,3 +102,8 @@ $(window).resize(function(){
    }
 })
 .resize();
+
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})

@@ -435,10 +435,11 @@
 		<div id="FA" class="tapcontent">
 		<div class="event-header">Fine Arts events</div>
 		<div class="row events-tab">
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#myModal">
 				<img class="event-logo" src="images/shirt.png">
 				<div class="event-date">Scrap Cloth Fashion Show</div>
 			</div>
+
 		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
 				<img class="event-logo" src="images/snapchat.png">
 				<div class="event-date">Snapchat Filter Designing</div>
@@ -545,7 +546,7 @@
 		<div id="Gaming" class="tapcontent">
 		<div class="event-header">Gaming</div>
 		<div class="row events-tab">
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#Gaming1">
 				<img class="event-logo" src="images/football.png">
 				<div class="event-date">FIFA 17</div>
 			</div>
@@ -706,7 +707,55 @@
 	  <div id="loader-wrapper">
     <div id="loader"></div>
 </div>
+<!--START OF MODALS-->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Heeloo whats uppp
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
+<div class="modal fade" id="Gaming1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Rules for FIFA 17</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      	<ul>
+      		<li>Max No of players - 32</li>
+      		<li>Knockout Format</li>
+      		<li>Duration of each match: 8 mins (4 min per half)</li>
+      		<li>In Case of Draw match, Penalties will be played.</li>
+      		<li>No profanities and obscene behavior will be tolerated and result in disqualification.</li>
+      		<li>Day 1 - since 32 players, Only 1 day needed.</li>
+      	</ul>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!--END OF MODALS-->
 	</body>
 
 
