@@ -45,7 +45,7 @@
 	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'about')">ABOUT</a></li>
 	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'schedule')">SCHEDULE</a></li>
 	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'reg')">REGISTRATION</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'events')">EVENTS</a></li>
+	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'events');hideStuff()">EVENTS</a></li>
 	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'sponsors')">SPONSORS</a></li>
 	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'contact')">CONTACT</a></li>
 	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'blog')">BLOG</a></li>
@@ -409,6 +409,30 @@
 		<div class="tabcontent" id="events">
 		<center>
 		<div class="fest-name">Events</div>
+		<div id="Menu" class="tapcontent">
+			<div class="event-header">Meraki'17 Events</div>
+			<div class="row events-tab">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'LA')">
+					<img src="images/la.png">
+					<div class="event-date">Literary Arts</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'FA')">
+					<img src="images/fa.png">
+					<div class="event-date">Fine Arts events</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'PA')">
+					<img src="images/pa.png">
+					<div class="event-date">Performing Arts events</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Gaming')">
+					<img src="images/gaming.png">
+					<div class="event-date">Gaming</div>
+				</div>
+				
+			</div>
+
+		</div>
+		<div id="FA" class="tapcontent">
 		<div class="event-header">Fine Arts events</div>
 		<div class="row events-tab">
 			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
@@ -435,13 +459,16 @@
 				<img class="event-logo" src="images/selfie-stick.png">
 				<div class="event-date">Ad Selfie</div>
 		    </div>   
+		    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+					<div class="event-date" id="defaultOpen1">Back</div>
+				</div>
 		
+		</div>
 		</div>
 
 
 
-
-
+		<div id="PA" class="tapcontent">
 		<div class="event-header">Performing Arts events</div>
 		<div class="row events-tab">
 			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
@@ -464,15 +491,17 @@
 				<img class="event-logo" src="images/Karaoke.png">
 				<div class="event-date">Do you even Karaoke?</div>
 		    </div>
-		      
-		
+		      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+					<div class="event-date">Back</div>
+				</div>
+		</div>
 		</div>
 
 
 
 
 
-
+		<div id="LA" class="tapcontent">
 		<div class="event-header">Literary Arts</div>
 		<div class="row events-tab">
 			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
@@ -503,14 +532,17 @@
 				<img src="images/panda.png">
 				<div class="event-date">Poetry Slam</div>
 		    </div>  
-		
+		    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+					<div class="event-date">Back</div>
+				</div>
+		</div>
 		</div>
 
 
 
 
 
-
+		<div id="Gaming" class="tapcontent">
 		<div class="event-header">Gaming</div>
 		<div class="row events-tab">
 			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
@@ -529,7 +561,10 @@
 				<img class="event-logo" src="images/pool.png">
 				<div class="event-date">Pool Football</div>
 		    </div>
-		
+		    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+					<div class="event-date">Back</div>
+				</div>
+		</div>
 		</div>
 		    
 		    

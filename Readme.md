@@ -9,7 +9,9 @@
 - [ ] Add Schedule
 - [ ] Add Blog
 - [ ] Add Reg
-- [x] Add Events
+- [x] Add Events Tabs
+- [ ] Add Events Modals
+- [ ] Add Events Info
 - [x] Add Gallery
 
 
