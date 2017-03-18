@@ -69,6 +69,7 @@ function hideStuff() {
     document.getElementById("Gaming").style.display = "none";
     document.getElementById("Menu").style.display = "block";
 }
+
 function openEvent(events, eventName) {
     var l, tapcontent, taplinks;
     tapcontent = document.getElementsByClassName("tapcontent");
@@ -104,6 +105,3 @@ $(window).resize(function(){
 .resize();
 
 
-$('#myModal').on('shown.bs.modal', function () {
-  $('#myInput').focus()
-})

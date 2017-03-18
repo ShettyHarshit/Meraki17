@@ -1,769 +1,861 @@
 	<!DOCTYPE html>
 	<html >
 	<head>
-	  <meta charset="UTF-8">
-	  <title>MERAKI</title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  
-	  <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
-	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+		<meta charset="UTF-8">
+		<title>MERAKI</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	      <link rel="stylesheet" href="css/style.css">
-	      <link rel="stylesheet" href="css/front.css">
-	      <link rel="stylesheet" href="css/animate.css">
-	      <link rel="stylesheet" href="css/event.css">
-	      <link rel="stylesheet" href="css/gallery.css">
-	      <link rel="stylesheet" href="css/navbar.css">
-	      <link rel="stylesheet" href="css/contact.css">
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
 
-	  
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/front.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/event.css">
+		<link rel="stylesheet" href="css/gallery.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/contact.css">
+
+
 	</head>
 
 	<body>
-	  <body>
-	  <!--START OF NAV BAR-->
-	  <nav class="navbar navbar-inverse navbar-fixed-top">
+		<body>
+			<!--START OF NAV BAR-->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
 
-	    <div class="navbar-check">
+				<div class="navbar-check">
 
-	      <div class="container-fluid">
-	        <div class="navbar-header">
-	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>                        
-	      </button>
-	      <div class="prevent"><a class="navbar-brand active tablinks" href="javascript:void(0)" onclick="openCity(event, 'meraki')" id="defaultOpen" >
-	      <img class="wheel" src="http://dataveyes.com/images/logo-wheel.svg"></a>
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>                        
+							</button>
+							<div class="prevent"><a class="navbar-brand active tablinks" href="javascript:void(0)" onclick="openCity(event, 'meraki')" id="defaultOpen" >
+								<img class="wheel" src="http://dataveyes.com/images/logo-wheel.svg"></a>
 
-	          <a class="navbar-brand active tablinks" href="javascript:void(0)" onclick="openCity(event, 'meraki')" id="defaultOpen" ><span class="force-color">MERAKI</span></a>
-	          
-	        </div></div>
-	        <div class="collapse navbar-collapse" id="myNavbar">
-	          <ul class="nav navbar-nav navbar-right cl-effect-21"  id="navbar-right-check">
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'about')">ABOUT</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'schedule')">SCHEDULE</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'reg')">REGISTRATION</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'events');hideStuff()">EVENTS</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'sponsors')">SPONSORS</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'contact')">CONTACT</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'blog')">BLOG</a></li>
-	            <li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'team')">TEAM</a></li>
-	          </ul>
-	        </div>
-	      </div>
-	    </div>
-	  </nav>
-	  <!--END OF NAV BAR-->
+								<a class="navbar-brand active tablinks" href="javascript:void(0)" onclick="openCity(event, 'meraki')" id="defaultOpen" ><span class="force-color">MERAKI</span></a>
 
-	  <!--START OF PAGE CONTENT-->
+							</div></div>
+							<div class="collapse navbar-collapse" id="myNavbar">
+								<ul class="nav navbar-nav navbar-right cl-effect-21"  id="navbar-right-check">
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'about')">ABOUT</a></li>
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'schedule')">SCHEDULE</a></li>
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'reg')">REGISTRATION</a></li>
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'events');hideStuff()">EVENTS</a></li>
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'sponsors')">SPONSORS</a></li>
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'contact')">CONTACT</a></li>
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'blog')">BLOG</a></li>
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'team')">TEAM</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</nav>
+				<!--END OF NAV BAR-->
 
-	  <div class="animated tabcontent" id="meraki">
-	  <center>
-	    <!--START OF COUNTDOWN-->
-	    <div id="clockdiv">
+				<!--START OF PAGE CONTENT-->
+
+				<div class="animated tabcontent" id="meraki">
+					<center>
+						<!--START OF COUNTDOWN-->
+						<div id="clockdiv">
 
 
-	    </div>
-	    <div>
-	    </div>
+						</div>
+						<div>
+						</div>
 
-	    <div class="page-buttons border">
-	      <div id="countdown"></div> DAYS LEFT
-	    </div>
-	    <!--END OF COUNTDOWN-->
-	    <img class="meraki-logo" src="images/logo3.png">
+						<div class="page-buttons border">
+							<div id="countdown"></div> DAYS LEFT
+						</div>
+						<!--END OF COUNTDOWN-->
+						<img class="meraki-logo" src="images/logo3.png">
 	    <!-- <div class="fest-name">Meraki</div> 
 	    <div class="event-date">3 - 5 August 2017</div> -->
 	    <div class="social-icons ">
-	      <a href="https://www.instagram.com/MerakiTheFest/" target="_blank">
-			      		<img class="insta" src="http://www.iconsdb.com/icons/download/white/instagram-32.ico">
-			      </a>
-			      <a href="https://www.facebook.com/MerakiTheFest/" target="_blank">
-			      		<img class="fb" src="http://www.iconsdb.com/icons/download/white/facebook-32.ico">
-			      </a>
-			      <a href="https://twitter.com/MerakiTheFest" target="_blank">
-			      		<img class="twitter" src="http://www.iconsdb.com/icons/download/white/twitter-32.ico">
-			      </a>
-			      <a href="https://www.snapchat.com/add/merakithefest" target="_blank">
-			      		<img class="snapchat" src="http://www.iconsdb.com/icons/download/white/snapchat-2-32.ico">
-			      </a>
-			      <a href="https://www.youtube.com/channel/UCjxjv8pRww-UjvZvgXOAjxg" target="_blank">
-			      		<img class="youtube" src="images/yt.png">
-		      	  </a></div>
-	      </center>
-	  </div>
-	  <!--END OF PAGE CONTENT-->
-
-	  <!--START OF GALLERY-->
-	  <center>
-
-	  <div class="photo-cover row tabcontent" id="team">
-	  <div class="fest-name">The Team</div>
-	  <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Abhishek Bissa</h2>
-					<p> 
-						<!-- <a href="#"> -->Head, Photography & Videography<!-- </a> -->
-						<br>
-						+91 9462466481
-						<br>
-						abhibissa07@gmail.com
-					</p> 
-					
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Amrita.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Amrita Kaur</h2>
-	                <p> 
-						Vice Chairperson
-						<br>
-						+91 7666781173
-						<br>
-						kaur.amrita05@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Chaitanya.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Chaitanya Suri</h2>
-					<p> 
-						Head, Technology
-						<br>
-						+91 8080434062
-						<br>
-						chaitanyasuri97@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Devarsh Shah</h2>
-					<p> 
-						Head, Performing Arts
-						<br>
-						+91 9819775966
-						<br>
-						devarsh.315@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Drishti.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Drishti Barar</h2>
-					<p> 
-						Head, Celebrity Hospitality
-						<br>
-						+91 9594531543
-						<br>
-						dhristibarar@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Gaurav.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Gaurav Matta</h2>
-					<p> 
-						Head, Marketing
-						<br>
-						+91 8851760575
-						<br>
-						gauravmatta789@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Ketan Sarraf</h2>
-					<p> 
-						Head, Finance
-						<br>
-						+91 8285212361
-						<br>
-						ketansarraf@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Kush.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Kush Jhawar</h2>
-					<p> 
-						Head, Public Relations College Representative
-						<br>
-						+91 9022042567
-						<br>
-						jhawarkush78@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Moha Paranjpe</h2>
-					<p> 
-						Head, Registrations
-						<br>
-						+91 9819946545
-						<br>
-						moharp.26@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Nandini Chauhan</h2>
-					<p> 
-						Head, Logistics
-						<br>
-						+91 7566788510
-						<br>
-						nandini.chawan96@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Nidhi Agarwal</h2>
-					<p> 
-						Head, Literary Arts
-						<br>
-						+91 8108897098
-						<br>
-						nidhi98.a@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Nischal Makharia</h2>
-					<p> 
-						Head, Security
-						<br>
-						+91 9167006616
-						<br>
-						makharia2507@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Prabhat.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Prahbat Singh</h2>
-					<p> 
-						Head, Logistics
-						<br>
-						+91 7045820642
-						<br>
-						singhprabhat723@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Samanyu.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Samanyu Kumar</h2>
-					<p> 
-						Head, Gaming
-						<br>
-						+91 7506149620
-						<br>
-						samanyukumar4@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Sharodiya Chowdhury</h2>
-					<p> 
-						Chairperson
-						<br>
-						+91 9004399289
-						<br>
-						sharodiyachowdhury@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Surya.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Surya Kant Vyas</h2>
-					<p> 
-						Vice Chairperson
-						<br>
-						+91 7028251769
-						<br>
-						kantvyassurya@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Suyash Sarvankar</h2>
-	                <p> 
-						Head, Public Relations & Social Media
-						<br>
-						+91 9757085983
-						<br>
-						suyash.sarvankar@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Vasudha.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Vasudha Jadon</h2>
-					<p> 
-						Head, Logistics
-						<br>
-						+91 7738444966
-						<br>
-						vasudhajadon011@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="images/Vipasa.jpg" alt="">
-	            <div class="overlay">
-	                <h2>Vipasa Mehta</h2>
-					<p> 
-						Head, Art and Décor
-						<br>
-						+91 9969827047
-						<br>
-						vips297@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div>
-	<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-	    <div class="hovereffect">
-	        <img class="img-responsive" src="http://placehold.it/450x350" alt="">
-	            <div class="overlay">
-	                <h2>Yashita Chandrashekhar</h2>
-					<p> 
-						Head, Fine Arts
-						<br>
-						+91 9993945336
-						<br>
-						yashitac@gmail.com
-					</p> 
-	            </div>
-	    </div>
-	</div> 
-	</div>
-	</center>
-	  <!--END OF GALLERY-->
-	  <!--START OF EVENTS-->
-		<div class="tabcontent" id="events">
-		<center>
-		<div class="fest-name">Events</div>
-		<div id="Menu" class="tapcontent">
-			<div class="event-header">Meraki'17 Events</div>
-			<div class="row events-tab">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'LA')">
-					<img src="images/la.png">
-					<div class="event-date">Literary Arts</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'FA')">
-					<img src="images/fa.png">
-					<div class="event-date">Fine Arts events</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'PA')">
-					<img src="images/pa.png">
-					<div class="event-date">Performing Arts events</div>
-				</div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Gaming')">
-					<img src="images/gaming.png">
-					<div class="event-date">Gaming</div>
-				</div>
-				
-			</div>
-
-		</div>
-		<div id="FA" class="tapcontent">
-		<div class="event-header">Fine Arts events</div>
-		<div class="row events-tab">
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#myModal">
-				<img class="event-logo" src="images/shirt.png">
-				<div class="event-date">Scrap Cloth Fashion Show</div>
-			</div>
-
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/snapchat.png">
-				<div class="event-date">Snapchat Filter Designing</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/bottle.png">
-				<div class="event-date">Glass Bottle Designing</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/footprint.png">
-				<div class="event-date">Foot Painting</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/chocolate.png">
-				<div class="event-date">Chocolate Drawing</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/selfie-stick.png">
-				<div class="event-date">Ad Selfie</div>
-		    </div>   
-		    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
-					<div class="event-date" id="defaultOpen1">Back</div>
-				</div>
-		
-		</div>
-		</div>
-
-
-
-		<div id="PA" class="tapcontent">
-		<div class="event-header">Performing Arts events</div>
-		<div class="row events-tab">
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/ballet.png">
-				<div class="event-date">Footloose</div>
-			</div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/video-player.png">
-				<div class="event-date">Motion Picture</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">Tone Deaf</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/clown.png">
-				<div class="event-date">Show me the funny</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/Karaoke.png">
-				<div class="event-date">Do you even Karaoke?</div>
-		    </div>
-		      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
-					<div class="event-date">Back</div>
-				</div>
-		</div>
-		</div>
-
-
-
-
-
-		<div id="LA" class="tapcontent">
-		<div class="event-header">Literary Arts</div>
-		<div class="row events-tab">
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">Block and Tackle</div>
-			</div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">Survival Event/Who am I?</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">Fan-Fic</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">Micro-Fiction</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">Dristikond</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">VakPutata(Just a minute)</div>
-		    </div>   
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img src="images/panda.png">
-				<div class="event-date">Poetry Slam</div>
-		    </div>  
-		    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
-					<div class="event-date">Back</div>
-				</div>
-		</div>
-		</div>
-
-
-
-
-
-		<div id="Gaming" class="tapcontent">
-		<div class="event-header">Gaming</div>
-		<div class="row events-tab">
-			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#Gaming1">
-				<img class="event-logo" src="images/football.png">
-				<div class="event-date">FIFA 17</div>
-			</div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/rifle.png">
-				<div class="event-date">COD Black Ops 3</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/shotgun.png">
-				<div class="event-date">Mini Militia 2</div>
-		    </div>
-		    <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
-				<img class="event-logo" src="images/pool.png">
-				<div class="event-date">Pool Football</div>
-		    </div>
-		    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
-					<div class="event-date">Back</div>
-				</div>
-		</div>
-		</div>
-		    
-		    
-		    
-		    </center>
-		</div>
-	  <!--END OF EVENTS-->
-
-	  <!--START OF ABOUT-->
-		<div class="tabcontent" id="about">
-		<center>
-		<div class="about-us">
-		<div class="fest-name">About Us</div>
-			<div class="event-info">
-			<p><a href="http://www.nmims.edu/" target="_blank">NMIMS</a> is an educational empire with a 35 year legacy. A multi-disciplinary University with four campuses and 11 schools that include Management, Engineering, Pharmacy, Architecture, Commerce, Business Economics, Science, Law, Aviation, Liberal Arts & Distance Learning.</p>
-			<br>
-			<p>Today more than 12000 students and 450 full time faculty members are part of India's most sought after academic community. (We did not write the last line, their website did.)</p>
-			<br>
-			<p><a href="http://law.nmims.edu/" target="_blank">NMIMS School of Law</a> established in the year 2013 approved by the Bar Council of India (yes our degrees are legitimate) aims to provide quality legal education in order to meet the challenges in the field of law.</p> 
-			<br>
-			<p>“We at School of Law inculcate and nourish all the professional virtues in a well calculated and planned manner”, is what the website says. And by “well calculated and planned manner” they mean, a daunting trimester pattern, 80% attendance policy and students who really appreciate extra-curricular activities as a well deserved de-stress mechanism that they can avail of once in a while, amidst the biblical life lesson serving monster that is-School of Law.</p>
-			<br>
-			<p>We could say Meraki is a cultural extravaganza but in reality, it is a melting pot of dead volunteers’ sacrifices, our committee head’s non-existent social lives, millions of rejected conventional event ideas, a thousand arguments with guards to let us use the classrooms beyond 7pm and all the chilly cheese maggi that was consumed during committee meetings. Meraki 2017 resembles a Karan Johar film-very dramatic, really expensive (ask our sponsorship team), running high on exaggerated emotions and an all out masala entertainer you’d watch at least once. We’ll even play Arijit Singh for a bit.</p>
-			<br>
-			<p>We’ve made our memes, bribed our volunteers with free food and customised t-shirts, had a long arduous committee meeting where democracy prevailed and each department’s best conspiracy theories were voted for, just for you to participate in and win all our fancy prizes in kind. </p>
-		    <br>
-			<p>There’s a competition for everyone at Meraki, from the dancers to the painters to the singers to the actors and even the gamers. Our goal this August is to give you a platform to shed your inhibitions, show case your talents and give yourself that much needed break from NMIMS. </p>
-			<br>
-			<p>And no, our theme song isn’t the NMIMS Anthem, we promise.</p>
-		    </div>
-		    </div>
-		    <div class="social-icons ">
-			      <a href="https://www.instagram.com/MerakiTheFest/" target="_blank">
-			      		<img class="insta" src="http://www.iconsdb.com/icons/download/white/instagram-32.ico">
-			      </a>
-			      <a href="https://www.facebook.com/MerakiTheFest/" target="_blank">
-			      		<img class="fb" src="http://www.iconsdb.com/icons/download/white/facebook-32.ico">
-			      </a>
-			      <a href="https://twitter.com/MerakiTheFest" target="_blank">
-			      		<img class="twitter" src="http://www.iconsdb.com/icons/download/white/twitter-32.ico">
-			      </a>
-			      <a href="https://www.snapchat.com/add/merakithefest" target="_blank">
-			      		<img class="snapchat" src="http://www.iconsdb.com/icons/download/white/snapchat-2-32.ico">
-			      </a>
-			      <a href="https://www.youtube.com/channel/UCjxjv8pRww-UjvZvgXOAjxg" target="_blank">
-			      		<img class="youtube" src="images/yt.png">
-		      	  </a>
-	      </div>
-		    </center>
-		</div>
-	  <!--END OF ABOUT-->
-
-	  <!--START OF ABOUT-->
-	<div class="tabcontent" id="schedule">
-	<div class="fest-name">Schedule
-	    </div>
-	    <div class="event-date">3-5 August 2017
-	    </div>
-	    
-	</div>
-	  <!--END OF ABOUT-->
-
-	  <!--START OF REG-->
-	<div class="tabcontent" id="reg">
-	<div class="fest-name">
-	    </div>
-	    <div class="event-date">Under Construction
-	    </div>
-	    
-	</div>
-	  <!--END OF REG-->
-
-	  <!--START OF SPONSORS-->
-	<div class="tabcontent" id="sponsors">
-	<div class="fest-name">
-	    </div>
-	    <div class="event-date">Under Construction
-	    </div>
-	</div>
-	  <!--END OF SPONSORS-->
-
-	  <!--START OF CONTACT-->
-	  <center>
-	<div class="tabcontent" id="contact">
-	<div class="contact-border">
-	<div class="fest-name">Contact</div>
-	    
-	    <div class="row">
-	    
-
-	    	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 map-size">
-		    	<div class="map-size1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.7135493532046!2d72.83684827586754!3d19.103366091121462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9b8676487ef%3A0x2c4fac1c801d5128!2sNMIMS+Mumbai!5e0!3m2!1sen!2sin!4v1489172227244" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-		    	<div class="map-size2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.7135493532046!2d72.83684827586754!3d19.103366091121462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9b8676487ef%3A0x2c4fac1c801d5128!2sNMIMS+Mumbai!5e0!3m2!1sen!2sin!4v1489172227244" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
-	    	</div>
-
-	    	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-info event-date">
-
-	    		<strong>ADDRESS</strong><br>
-				Meraki,<br>
-				School of Law,<br>
-				NMIMS University<br>
-				V. L. Mehta Road, Vile Parle (West)<br>
-				Mumbai, Maharashtra, India<br>
-				Pin Code - 400 056
-	    		<br>
-	    		<br>
-	    		<strong>EMAIL</strong><br>teralockmeraki@gmail.com<br>
-	    		<br>
-	    		<strong>PHONE</strong><br>
-	    		+91 98xxxxxxxx
-
-
-
-	    	</div>
-	    	</div>
-	    	<div class="social-icons ">
-			      <a href="https://www.instagram.com/MerakiTheFest/" target="_blank">
-			      		<img class="insta" src="http://www.iconsdb.com/icons/download/white/instagram-32.ico">
-			      </a>
-			      <a href="https://www.facebook.com/MerakiTheFest/" target="_blank">
-			      		<img class="fb" src="http://www.iconsdb.com/icons/download/white/facebook-32.ico">
-			      </a>
-			      <a href="https://twitter.com/MerakiTheFest" target="_blank">
-			      		<img class="twitter" src="http://www.iconsdb.com/icons/download/white/twitter-32.ico">
-			      </a>
-			      <a href="https://www.snapchat.com/add/merakithefest" target="_blank">
-			      		<img class="snapchat" src="http://www.iconsdb.com/icons/download/white/snapchat-2-32.ico">
-			      </a>
-			      <a href="https://www.youtube.com/channel/UCjxjv8pRww-UjvZvgXOAjxg" target="_blank">
-			      		<img class="youtube" src="images/yt.png">
-		      	  </a>
-	      </div>
-	    </div>
-
+	    	<a href="https://www.instagram.com/MerakiTheFest/" target="_blank">
+	    		<img class="insta" src="http://www.iconsdb.com/icons/download/white/instagram-32.ico">
+	    	</a>
+	    	<a href="https://www.facebook.com/MerakiTheFest/" target="_blank">
+	    		<img class="fb" src="http://www.iconsdb.com/icons/download/white/facebook-32.ico">
+	    	</a>
+	    	<a href="https://twitter.com/MerakiTheFest" target="_blank">
+	    		<img class="twitter" src="http://www.iconsdb.com/icons/download/white/twitter-32.ico">
+	    	</a>
+	    	<a href="https://www.snapchat.com/add/merakithefest" target="_blank">
+	    		<img class="snapchat" src="http://www.iconsdb.com/icons/download/white/snapchat-2-32.ico">
+	    	</a>
+	    	<a href="https://www.youtube.com/channel/UCjxjv8pRww-UjvZvgXOAjxg" target="_blank">
+	    		<img class="youtube" src="images/yt.png">
+	    	</a></div>
 	    </center>
 	</div>
-	  <!--END OF CONTACT-->
+	<!--END OF PAGE CONTENT-->
 
-	  <div id="loader-wrapper">
-    <div id="loader"></div>
-</div>
-<!--START OF MODALS-->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        Heeloo whats uppp
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+	<!--START OF GALLERY-->
+	<center>
 
-<div class="modal fade" id="Gaming1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Rules for FIFA 17</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-      	<ul>
-      		<li>Max No of players - 32</li>
-      		<li>Knockout Format</li>
-      		<li>Duration of each match: 8 mins (4 min per half)</li>
-      		<li>In Case of Draw match, Penalties will be played.</li>
-      		<li>No profanities and obscene behavior will be tolerated and result in disqualification.</li>
-      		<li>Day 1 - since 32 players, Only 1 day needed.</li>
-      	</ul>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
+		<div class="photo-cover row tabcontent" id="team">
+			<div class="fest-name">The Team</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Abhishek Bissa</h2>
+						<p> 
+							<!-- <a href="#"> -->Head, Photography & Videography<!-- </a> -->
+							<br>
+							+91 9462466481
+							<br>
+							abhibissa07@gmail.com
+						</p> 
+
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Amrita.jpg" alt="">
+					<div class="overlay">
+						<h2>Amrita Kaur</h2>
+						<p> 
+							Vice Chairperson
+							<br>
+							+91 7666781173
+							<br>
+							kaur.amrita05@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Chaitanya.jpg" alt="">
+					<div class="overlay">
+						<h2>Chaitanya Suri</h2>
+						<p> 
+							Head, Technology
+							<br>
+							+91 8080434062
+							<br>
+							chaitanyasuri97@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Devarsh Shah</h2>
+						<p> 
+							Head, Performing Arts
+							<br>
+							+91 9819775966
+							<br>
+							devarsh.315@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Drishti.jpg" alt="">
+					<div class="overlay">
+						<h2>Drishti Barar</h2>
+						<p> 
+							Head, Celebrity Hospitality
+							<br>
+							+91 9594531543
+							<br>
+							dhristibarar@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Gaurav.jpg" alt="">
+					<div class="overlay">
+						<h2>Gaurav Matta</h2>
+						<p> 
+							Head, Marketing
+							<br>
+							+91 8851760575
+							<br>
+							gauravmatta789@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Ketan Sarraf</h2>
+						<p> 
+							Head, Finance
+							<br>
+							+91 8285212361
+							<br>
+							ketansarraf@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Kush.jpg" alt="">
+					<div class="overlay">
+						<h2>Kush Jhawar</h2>
+						<p> 
+							Head, Public Relations College Representative
+							<br>
+							+91 9022042567
+							<br>
+							jhawarkush78@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Moha Paranjpe</h2>
+						<p> 
+							Head, Registrations
+							<br>
+							+91 9819946545
+							<br>
+							moharp.26@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Nandini Chauhan</h2>
+						<p> 
+							Head, Logistics
+							<br>
+							+91 7566788510
+							<br>
+							nandini.chawan96@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Nidhi Agarwal</h2>
+						<p> 
+							Head, Literary Arts
+							<br>
+							+91 8108897098
+							<br>
+							nidhi98.a@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Nischal Makharia</h2>
+						<p> 
+							Head, Security
+							<br>
+							+91 9167006616
+							<br>
+							makharia2507@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Prabhat.jpg" alt="">
+					<div class="overlay">
+						<h2>Prahbat Singh</h2>
+						<p> 
+							Head, Logistics
+							<br>
+							+91 7045820642
+							<br>
+							singhprabhat723@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Samanyu.jpg" alt="">
+					<div class="overlay">
+						<h2>Samanyu Kumar</h2>
+						<p> 
+							Head, Gaming
+							<br>
+							+91 7506149620
+							<br>
+							samanyukumar4@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Sharodiya Chowdhury</h2>
+						<p> 
+							Chairperson
+							<br>
+							+91 9004399289
+							<br>
+							sharodiyachowdhury@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Surya.jpg" alt="">
+					<div class="overlay">
+						<h2>Surya Kant Vyas</h2>
+						<p> 
+							Vice Chairperson
+							<br>
+							+91 7028251769
+							<br>
+							kantvyassurya@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Suyash Sarvankar</h2>
+						<p> 
+							Head, Public Relations & Social Media
+							<br>
+							+91 9757085983
+							<br>
+							suyash.sarvankar@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Vasudha.jpg" alt="">
+					<div class="overlay">
+						<h2>Vasudha Jadon</h2>
+						<p> 
+							Head, Logistics
+							<br>
+							+91 7738444966
+							<br>
+							vasudhajadon011@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="images/Vipasa.jpg" alt="">
+					<div class="overlay">
+						<h2>Vipasa Mehta</h2>
+						<p> 
+							Head, Art and Décor
+							<br>
+							+91 9969827047
+							<br>
+							vips297@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+				<div class="hovereffect">
+					<img class="img-responsive" src="http://placehold.it/450x350" alt="">
+					<div class="overlay">
+						<h2>Yashita Chandrashekhar</h2>
+						<p> 
+							Head, Fine Arts
+							<br>
+							+91 9993945336
+							<br>
+							yashitac@gmail.com
+						</p> 
+					</div>
+				</div>
+			</div> 
+		</div>
+	</center>
+	<!--END OF GALLERY-->
+	<!--START OF EVENTS-->
+	<div class="tabcontent" id="events">
+		<center>
+			<div class="fest-name">Events</div>
+			<div id="Menu" class="tapcontent">
+				<div class="event-header">Meraki'17 Events</div>
+				<div class="row events-tab">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'LA')">
+						<img src="images/la.png">
+						<div class="event-date">Literary Arts</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'FA')">
+						<img src="images/fa.png">
+						<div class="event-date">Fine Arts events</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'PA')">
+						<img src="images/pa.png">
+						<div class="event-date">Performing Arts events</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Gaming')">
+						<img src="images/gaming.png">
+						<div class="event-date">Gaming</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div id="FA" class="tapcontent">
+				<div class="event-header">Fine Arts events</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#myModal">
+						<img class="event-logo" src="images/shirt.png">
+						<div class="event-date">Scrap Cloth Fashion Show</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/snapchat.png">
+						<div class="event-date">Snapchat Filter Designing</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/bottle.png">
+						<div class="event-date">Glass Bottle Designing</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/footprint.png">
+						<div class="event-date">Foot Painting</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/chocolate.png">
+						<div class="event-date">Chocolate Drawing</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/selfie-stick.png">
+						<div class="event-date">Ad Selfie</div>
+					</div>   
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<div class="event-date" id="defaultOpen1">Back</div>
+					</div>
+
+				</div>
+			</div>
 
 
 
-<!--END OF MODALS-->
-	</body>
+			<div id="PA" class="tapcontent">
+				<div class="event-header">Performing Arts events</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#PA1">
+						<img class="event-logo" src="images/ballet.png">
+						<div class="event-date">Footloose</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#PA2">
+						<img class="event-logo" src="images/video-player.png">
+						<div class="event-date">Motion Picture</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#PA3">
+						<img src="images/panda.png">
+						<div class="event-date">Tone Deaf</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#PA4">
+						<img class="event-logo" src="images/clown.png">
+						<div class="event-date">Show me the funny</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#PA5">
+						<img class="event-logo" src="images/Karaoke.png">
+						<div class="event-date">Do you even Karaoke?</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<div class="event-date">Back</div>
+					</div>
+				</div> 
 
 
 
-	  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
-	<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+			</div>
+		</center>
 
-	    <script src="js/index.js"></script>
+		<!-- Modal -->
+		<div class="modal fade" id="PA1" role="dialog">
+			<div class="modal-dialog">
 
-	</body>
-	</html>
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Max No of players - 32</li>
+							<li>Knockout Format</li>
+							<li>Duration of each match: 8 mins (4 min per half)</li>
+							<li>In Case of Draw match, Penalties will be played.</li>
+							<li>No profanities and obscene behavior will be tolerated and result in disqualification.</li>
+							<li>Day 1 - since 32 players, Only 1 day needed.</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA2" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header2</h4>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Max No of players - 32</li>
+							<li>Knockout Format</li>
+							<li>Duration of each match: 8 mins (4 min per half)</li>
+							<li>In Case of Draw match, Penalties will be played.</li>
+							<li>No profanities and obscene behavior will be tolerated and result in disqualification.</li>
+							<li>Day 1 - since 32 players, Only 1 day needed.</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA3" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Max No of players - 32</li>
+							<li>Knockout Format</li>
+							<li>Duration of each match: 8 mins (4 min per half)</li>
+							<li>In Case of Draw match, Penalties will be played.</li>
+							<li>No profanities and obscene behavior will be tolerated and result in disqualification.</li>
+							<li>Day 1 - since 32 players, Only 1 day needed.</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA4" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header2</h4>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Max No of players - 32</li>
+							<li>Knockout Format</li>
+							<li>Duration of each match: 8 mins (4 min per half)</li>
+							<li>In Case of Draw match, Penalties will be played.</li>
+							<li>No profanities and obscene behavior will be tolerated and result in disqualification.</li>
+							<li>Day 1 - since 32 players, Only 1 day needed.</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA5" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Modal Header</h4>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<li>Max No of players - 32</li>
+							<li>Knockout Format</li>
+							<li>Duration of each match: 8 mins (4 min per half)</li>
+							<li>In Case of Draw match, Penalties will be played.</li>
+							<li>No profanities and obscene behavior will be tolerated and result in disqualification.</li>
+							<li>Day 1 - since 32 players, Only 1 day needed.</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+
+
+
+
+		<center>
+			<div id="LA" class="tapcontent">
+				<div class="event-header">Literary Arts</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img src="images/panda.png">
+						<div class="event-date">Block and Tackle</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img src="images/panda.png">
+						<div class="event-date">Survival Event/Who am I?</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img src="images/panda.png">
+						<div class="event-date">Fan-Fic</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img src="images/panda.png">
+						<div class="event-date">Micro-Fiction</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img src="images/panda.png">
+						<div class="event-date">Dristikond</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img src="images/panda.png">
+						<div class="event-date">VakPutata(Just a minute)</div>
+					</div>   
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img src="images/panda.png">
+						<div class="event-date">Poetry Slam</div>
+					</div>  
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<div class="event-date">Back</div>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+			<div id="Gaming" class="tapcontent">
+				<div class="event-header">Gaming</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#Gaming1">
+						<img class="event-logo" src="images/football.png">
+						<div class="event-date">FIFA 17</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/rifle.png">
+						<div class="event-date">COD Black Ops 3</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/shotgun.png">
+						<div class="event-date">Mini Militia 2</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop">
+						<img class="event-logo" src="images/pool.png">
+						<div class="event-date">Pool Football</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<div class="event-date">Back</div>
+					</div>
+				</div>
+			</div>
+		</center>
+	</div>
+	<!--END OF EVENTS-->
+
+	<!--START OF ABOUT-->
+	<div class="tabcontent" id="about">
+		<center>
+			<div class="about-us">
+				<div class="fest-name">About Us</div>
+				<div class="event-info">
+					<p><a href="http://www.nmims.edu/" target="_blank">NMIMS</a> is an educational empire with a 35 year legacy. A multi-disciplinary University with four campuses and 11 schools that include Management, Engineering, Pharmacy, Architecture, Commerce, Business Economics, Science, Law, Aviation, Liberal Arts & Distance Learning.</p>
+					<br>
+					<p>Today more than 12000 students and 450 full time faculty members are part of India's most sought after academic community. (We did not write the last line, their website did.)</p>
+					<br>
+					<p><a href="http://law.nmims.edu/" target="_blank">NMIMS School of Law</a> established in the year 2013 approved by the Bar Council of India (yes our degrees are legitimate) aims to provide quality legal education in order to meet the challenges in the field of law.</p> 
+					<br>
+					<p>“We at School of Law inculcate and nourish all the professional virtues in a well calculated and planned manner”, is what the website says. And by “well calculated and planned manner” they mean, a daunting trimester pattern, 80% attendance policy and students who really appreciate extra-curricular activities as a well deserved de-stress mechanism that they can avail of once in a while, amidst the biblical life lesson serving monster that is-School of Law.</p>
+					<br>
+					<p>We could say Meraki is a cultural extravaganza but in reality, it is a melting pot of dead volunteers’ sacrifices, our committee head’s non-existent social lives, millions of rejected conventional event ideas, a thousand arguments with guards to let us use the classrooms beyond 7pm and all the chilly cheese maggi that was consumed during committee meetings. Meraki 2017 resembles a Karan Johar film-very dramatic, really expensive (ask our sponsorship team), running high on exaggerated emotions and an all out masala entertainer you’d watch at least once. We’ll even play Arijit Singh for a bit.</p>
+					<br>
+					<p>We’ve made our memes, bribed our volunteers with free food and customised t-shirts, had a long arduous committee meeting where democracy prevailed and each department’s best conspiracy theories were voted for, just for you to participate in and win all our fancy prizes in kind. </p>
+					<br>
+					<p>There’s a competition for everyone at Meraki, from the dancers to the painters to the singers to the actors and even the gamers. Our goal this August is to give you a platform to shed your inhibitions, show case your talents and give yourself that much needed break from NMIMS. </p>
+					<br>
+					<p>And no, our theme song isn’t the NMIMS Anthem, we promise.</p>
+				</div>
+			</div>
+			<div class="social-icons ">
+				<a href="https://www.instagram.com/MerakiTheFest/" target="_blank">
+					<img class="insta" src="http://www.iconsdb.com/icons/download/white/instagram-32.ico">
+				</a>
+				<a href="https://www.facebook.com/MerakiTheFest/" target="_blank">
+					<img class="fb" src="http://www.iconsdb.com/icons/download/white/facebook-32.ico">
+				</a>
+				<a href="https://twitter.com/MerakiTheFest" target="_blank">
+					<img class="twitter" src="http://www.iconsdb.com/icons/download/white/twitter-32.ico">
+				</a>
+				<a href="https://www.snapchat.com/add/merakithefest" target="_blank">
+					<img class="snapchat" src="http://www.iconsdb.com/icons/download/white/snapchat-2-32.ico">
+				</a>
+				<a href="https://www.youtube.com/channel/UCjxjv8pRww-UjvZvgXOAjxg" target="_blank">
+					<img class="youtube" src="images/yt.png">
+				</a>
+			</div>
+		</center>
+	</div>
+	<!--END OF ABOUT-->
+
+	<!--START OF ABOUT-->
+	<div class="tabcontent" id="schedule">
+		<div class="fest-name">Schedule
+		</div>
+		<div class="event-date">3-5 August 2017
+		</div>
+
+	</div>
+	<!--END OF ABOUT-->
+
+	<!--START OF REG-->
+	<div class="tabcontent" id="reg">
+		<div class="fest-name">
+		</div>
+		<div class="event-date">Under Construction
+		</div>
+
+	</div>
+	<!--END OF REG-->
+
+	<!--START OF SPONSORS-->
+	<div class="tabcontent" id="sponsors">
+		<div class="fest-name">
+		</div>
+		<div class="event-date">Under Construction
+		</div>
+	</div>
+	<!--END OF SPONSORS-->
+
+	<!--START OF CONTACT-->
+	<center>
+		<div class="tabcontent" id="contact">
+			<div class="contact-border">
+				<div class="fest-name">Contact</div>
+
+				<div class="row">
+
+
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 map-size">
+						<div class="map-size1"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.7135493532046!2d72.83684827586754!3d19.103366091121462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9b8676487ef%3A0x2c4fac1c801d5128!2sNMIMS+Mumbai!5e0!3m2!1sen!2sin!4v1489172227244" width="400" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+						<div class="map-size2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2241.7135493532046!2d72.83684827586754!3d19.103366091121462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9b8676487ef%3A0x2c4fac1c801d5128!2sNMIMS+Mumbai!5e0!3m2!1sen!2sin!4v1489172227244" width="250" height="250" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+					</div>
+
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 contact-info event-date">
+
+						<strong>ADDRESS</strong><br>
+						Meraki,<br>
+						School of Law,<br>
+						NMIMS University<br>
+						V. L. Mehta Road, Vile Parle (West)<br>
+						Mumbai, Maharashtra, India<br>
+						Pin Code - 400 056
+						<br>
+						<br>
+						<strong>EMAIL</strong><br>teralockmeraki@gmail.com<br>
+						<br>
+						<strong>PHONE</strong><br>
+						+91 98xxxxxxxx
+
+
+
+					</div>
+				</div>
+				<div class="social-icons ">
+					<a href="https://www.instagram.com/MerakiTheFest/" target="_blank">
+						<img class="insta" src="http://www.iconsdb.com/icons/download/white/instagram-32.ico">
+					</a>
+					<a href="https://www.facebook.com/MerakiTheFest/" target="_blank">
+						<img class="fb" src="http://www.iconsdb.com/icons/download/white/facebook-32.ico">
+					</a>
+					<a href="https://twitter.com/MerakiTheFest" target="_blank">
+						<img class="twitter" src="http://www.iconsdb.com/icons/download/white/twitter-32.ico">
+					</a>
+					<a href="https://www.snapchat.com/add/merakithefest" target="_blank">
+						<img class="snapchat" src="http://www.iconsdb.com/icons/download/white/snapchat-2-32.ico">
+					</a>
+					<a href="https://www.youtube.com/channel/UCjxjv8pRww-UjvZvgXOAjxg" target="_blank">
+						<img class="youtube" src="images/yt.png">
+					</a>
+				</div>
+			</div>
+
+		</center>
+	</div>
+
+	<!--END OF CONTACT-->
+
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+	</div>
+	<!--START OF MODALS-->
+	<!--END OF MODALS-->
+</body>
+
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+<script src="js/index.js"></script>
+
+</body>
+</html>
