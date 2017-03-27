@@ -7,8 +7,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 @font-face {
-   font-family: TitleFont;
-   src: url('../fonts/Meraki.woff')  format('woff');
+ font-family: TitleFont;
+ src: url('../fonts/Meraki.woff')  format('woff');
 }
 
 body {
@@ -34,31 +34,31 @@ background-image: url('../images/bg.jpg');
 
 
 
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  padding-top: 65px;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+padding-top: 65px;
 
-  @-webkit-keyframes AnimationName {
-    0%{background-position:17% 0%}
-    50%{background-position:84% 100%}
-    100%{background-position:17% 0%}
+@-webkit-keyframes AnimationName {
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:17% 0%}
-    50%{background-position:84% 100%}
-    100%{background-position:17% 0%}
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
 }
 @-o-keyframes AnimationName {
-    0%{background-position:17% 0%}
-    50%{background-position:84% 100%}
-    100%{background-position:17% 0%}
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
 }
 @keyframes AnimationName {
-    0%{background-position:17% 0%}
-    50%{background-position:84% 100%}
-    100%{background-position:17% 0%}
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
 }
 }
 
@@ -266,18 +266,18 @@ background-image: url('../images/bg.jpg');
 
 
 .tabcontent {
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
 @-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .about-us{
@@ -307,7 +307,7 @@ background-image: url('../images/bg.jpg');
 
 .event-header{
 
-font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 40px;
   padding: 20px;
   color: #ffffff;
@@ -320,32 +320,34 @@ font-family: 'Raleway', sans-serif;
   }
 
   .about-us{
-  width: 95%;
-}
+    width: 95%;
+  }
 
   .event-date {
     font-size: 20px;
   }
 
-.meraki-logo{
-  width: 80%;
-}
+  .meraki-logo{
+    width: 80%;
+  }
 
-.social-icons {
-width: 100%;
-}
-
-}
-
-
+  .social-icons {
+    width: 100%;
+  }
 
 
 
 }
+
+
+
+
+
+
 
 
 @media (min-width: 768px) and (max-width: 1000px) {
-   .collapse {
-       display: none !important;
-   }
+ .collapse {
+   display: none !important;
+ }
 }
