@@ -10,9 +10,13 @@
 - [ ] Add Blog
 - [ ] Add Reg
 - [x] Add Events Tabs
-- [ ] Add Events Modals
-- [ ] Add Events Info
+- [x] Add Events Modals
+- [x] Add Events Info
 - [x] Add Gallery
+- [ ] Page Transitions
+- [ ] Tabs to Routing
+- [x] Add Gallery
+
 
 
 
@@ -21,3 +25,4 @@
 ## On frontend
   -  Jquery
   -  Bootstrap
+  -  AngularJs
