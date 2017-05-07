@@ -667,7 +667,7 @@
 							<li>eraser and sharper.</li>
 						</ul>
 						
-							<li>Participants that make unreasonable, unscientific claims while exploiting people'&rsquo;'s insecurities in their poster will be hired as advertisers for fairness brands.</li>
+							<li>Participants that make unreasonable, unscientific claims while exploiting people's insecurities in their poster will be hired as advertisers for fairness brands.</li>
 						
 						</ol>
 					</div>
@@ -1433,10 +1433,14 @@
 	<div class="tabcontent" id="schedule">
 		<div class="fest-name">Schedule
 		</div>
-		<div class="event-date">THURSDAY
-		</div>
 		<center>
-		<table class="sched">
+		<div class="xtab">
+		<span class="xtablinks event-date" onclick="openDay(event, 'London')" id="xdefaultOpen">THURSDAY</span><span class="xtablinks event-date" onclick="openDay(event, 'Paris')">FRIDAY</span><span class="xtablinks event-date" onclick="openDay(event, 'Tokyo')">SATURDAY</span>
+		</div></center>
+		<br>
+		<div id="London" class="xtabcontent">
+			<center>
+		<table class="sched striped">
   <thead>
     <tr>
       <th>Time</th>
@@ -1509,10 +1513,11 @@
   </tbody>
 </table>
 </center>
-		<div class="event-date">FRIDAY
 		</div>
-		<center>
-		<table class="sched">
+
+		<div id="Paris" class="xtabcontent">
+			<center>
+		<table class="sched striped">
   <thead>
     <tr>
       <th>Time</th>
@@ -1566,11 +1571,12 @@
     </tr>
   </tbody>
 </table>
-</center>
-<div class="event-date">SATURDAY
+</center> 
 		</div>
-		<center>
-		<table class="sched">
+
+		<div id="Tokyo" class="xtabcontent">
+			<center>
+		<table class="sched striped">
   <thead>
     <tr>
       <th>Time</th>
@@ -1613,6 +1619,11 @@
   </tbody>
 </table>
 </center>
+		</div>
+		<br>
+		<br>
+		
+		
 	</div>
 	<!--END OF ABOUT-->
 

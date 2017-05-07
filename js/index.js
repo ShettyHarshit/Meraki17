@@ -88,6 +88,23 @@ function openEvent(events, eventName) {
 // END OF EVENTS TAB
 
 
+// START OF SCHEDULE TABS
+document.getElementById("xdefaultOpen").click();
+function openDay(evt, cityName) {
+    var t, xtabcontent, xtablinks;
+    xtabcontent = document.getElementsByClassName("xtabcontent");
+    for (t = 0; t < xtabcontent.length; t++) {
+        xtabcontent[t].style.display = "none";
+    }
+    xtablinks = document.getElementsByClassName("xtablinks");
+    for (t = 0; t < xtablinks.length; t++) {
+        xtablinks[t].className = xtablinks[t].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+//END OF SCHEDULE TABS
+
 $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') ) {
         $(this).collapse('hide');
