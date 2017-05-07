@@ -132,7 +132,6 @@ padding-top: 65px;
   border: 5px #fff;
 }
 
-.animated {}
 
 .insta {
   padding: 10px 14px;
@@ -315,6 +314,33 @@ padding-top: 65px;
   color: #ffffff;
 }
 
+.particles-js-canvas-el{
+  z-index: -999;
+  position: fixed; 
+}
+
+
+canvas {
+    display:block;
+    position: absolute; 
+    top: 0
+    z-index: -9;
+    height: 100%;
+}
+
+#particles-js{
+  height: 100%;
+
+}
+
+.animated {
+  position: absolute;
+  width: 100%;
+  z-index:5
+}
+
+
+
 
 @media(max-width: 768px) {
   .fest-name {
@@ -335,6 +361,7 @@ padding-top: 65px;
 
   .social-icons {
     width: 100%;
+    z-index: 9999;
   }
 
 
