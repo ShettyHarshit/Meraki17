@@ -58,6 +58,12 @@ function openCity(evt, cityName) {
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
+
+    // var hash = $.trim( window.location.hash );
+    // if (hash)
+    //     {function openCity(evt, [href$="'+hash+'"])}
+     
+    // if (hash) $('.inner-nav a[href$="'+hash+'"]').trigger('click');
     
 }
 //END OF TABS
