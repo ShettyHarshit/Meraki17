@@ -320,18 +320,30 @@ padding-top: 65px;
 }
 
 
-canvas {
-    display:block;
-    position: absolute; 
-    top: 0
-    z-index: -9;
-    height: 100%;
+
+.background{
+    color: #999999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    margin:-50px;
 }
 
-#particles-js{
-  height: 100%;
-
+.xbackground{
+  background-image: url('../images/bg1.png');
+    color: #999999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: -100;
+    margin:-50px;
 }
+
+.background img{
+  width:100% !important; 
+}
+
 
 .animated {
   position: absolute;
@@ -352,6 +364,10 @@ canvas {
   .fest-name {
     font-size: 64px;
   }
+
+  .animated {
+  position: fixed;
+}
 
   .about-us{
     width: 95%;

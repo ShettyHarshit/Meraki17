@@ -122,6 +122,7 @@ $(window).resize(function(){
    var width = $(window).width();
    if(width < 768){
        $('#navbar-right-check').removeClass('cl-effect-21');
+       $('.ref').removeAttr('id');
        console.log('works');
    }
 })
