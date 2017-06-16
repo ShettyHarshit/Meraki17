@@ -314,10 +314,10 @@ padding-top: 65px;
   color: #ffffff;
 }
 
-.particles-js-canvas-el{
+/*.particles-js-canvas-el{
   z-index: -999;
   position: fixed; 
-}
+}*/
 
 
 
@@ -345,11 +345,11 @@ padding-top: 65px;
 }
 
 
-.animated {
+/*.animated {
   position: absolute;
   width: 100%;
   z-index:5
-}
+}*/
 
 .xfooter{
   position: fixed;
