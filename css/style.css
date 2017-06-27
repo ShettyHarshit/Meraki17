@@ -17,16 +17,16 @@ html {
 
 body {  
 background-image: url('../images/bg.jpg');
-
-
-
-
-background-size: cover;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 padding-top: 65px;
-
+padding-bottom: 0px;
+}
 
 @-webkit-keyframes AnimationName {
   0%{background-position:17% 0%}
@@ -47,7 +47,6 @@ padding-top: 65px;
   0%{background-position:17% 0%}
   50%{background-position:84% 100%}
   100%{background-position:17% 0%}
-}
 }
 
 
@@ -114,7 +113,10 @@ padding-top: 65px;
 
 .social-icons {
   text-align: center;
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin: auto;
   width: 540px;
   border: 5px #fff;
@@ -183,6 +185,13 @@ padding-top: 65px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
   padding: 20px;
+}
+
+.footer-text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  padding: 9px;
+  color: #D3D3D3
 }
 
 .check {
@@ -254,15 +263,19 @@ padding-top: 65px;
 
 .tabcontent {
   /* equal to footer height */
-  margin-bottom: -32px; 
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: 0px;
+
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
-.tabcontent:after {
+/*.tabcontent:after {
   content: "";
   display: block;
-}
+*/}
 
 @-webkit-keyframes fadeEffect {
   from {opacity: 0;}
@@ -309,9 +322,42 @@ padding-top: 65px;
   color: #ffffff;
 }
 
-#footer, .tabcontent:after {
-height: 32px; 
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    border: 0px solid red;
+    opacity: 1;
+    background-color: #151f20;
+        text-align: center;
+
 }
+
+.xspace{
+  height: 40px;
+}
+
+
+
+/*#footer, .tabcontent:after {
+height: 32px; 
+}*/
+
+/*.mainwrapper {
+    min-height: 100%;
+    padding: 0 0 0px;
+    position: relative;
+}
+
+footer {
+    bottom: 0;
+    height: 32px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+}*/
 
 /*.particles-js-canvas-el{
   z-index: -999;
@@ -364,9 +410,9 @@ height: 32px;
     font-size: 64px;
   }
 
-  .animated {
+/*  .animated {
   position: fixed;
-}
+}*/
 
   .about-us{
     width: 95%;
