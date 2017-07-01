@@ -18,14 +18,15 @@ html {
 body {  
 background-image: url('../images/bg.jpg');
 -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-position: center;
 padding-top: 65px;
 padding-bottom: 0px;
+min-height: 100%;
 }
 
 @-webkit-keyframes AnimationName {
@@ -331,8 +332,7 @@ padding-bottom: 0px;
     border: 0px solid red;
     opacity: 1;
     background-color: #151f20;
-        text-align: center;
-
+    text-align: center;
 }
 
 .xspace{
@@ -413,6 +413,18 @@ footer {
 /*  .animated {
   position: fixed;
 }*/
+
+  .footer-text{
+  padding: 13px;
+}
+
+   #footer {
+    height: 48px;    
+}
+
+#countdown{
+  font-size: 56px;
+}
 
   .about-us{
     width: 95%;
