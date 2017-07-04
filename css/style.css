@@ -13,6 +13,7 @@
 
 html {
     height: 100%;
+    overflow: hidden;
 }
 
 body {  
@@ -27,7 +28,10 @@ background-position: center;
 padding-top: 65px;
 padding-bottom: 0px;
 min-height: 100%;
+overflow-y: scroll;
+    -webkit-overflow-scrolling:touch;
 }
+
 
 @-webkit-keyframes AnimationName {
   0%{background-position:17% 0%}
@@ -345,10 +349,7 @@ min-height: 100%;
   text-align: center;
 }
 
-.customnavigation {
-  height:100%;
-  overflow-y:auto;
-}
+
 
 /*#footer, .tabcontent:after {
 height: 32px; 
