@@ -430,12 +430,16 @@ footer {
     height: 60px;    
 }
 
-#countdown{
+  #countdown{
   font-size: 56px;
 }
 
   .about-us{
     width: 95%;
+  }
+
+  .sched-date {
+    padding: 5px !important;
   }
 
   .event-date {
