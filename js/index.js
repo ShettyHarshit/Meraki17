@@ -129,9 +129,7 @@ $(window).resize(function(){
 .resize();
 
 
-$("html, body, #wrapper").css({
-    height: $(window).height()
-});
+
 
 
 

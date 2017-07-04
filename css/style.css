@@ -345,7 +345,10 @@ min-height: 100%;
   text-align: center;
 }
 
-
+.customnavigation {
+  height:100%;
+  overflow-y:auto;
+}
 
 /*#footer, .tabcontent:after {
 height: 32px; 
