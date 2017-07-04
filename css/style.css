@@ -13,7 +13,7 @@
 
 html {
     height: 100%;
-    overflow: hidden;
+    
 }
 
 body {  
@@ -28,8 +28,6 @@ background-position: center;
 padding-top: 65px;
 padding-bottom: 0px;
 min-height: 100%;
-overflow-y: scroll;
-    -webkit-overflow-scrolling:touch;
 }
 
 
@@ -425,11 +423,11 @@ footer {
 }*/
 
   .footer-text{
-  padding: 13px;
+  padding: 19px;
 }
 
    #footer {
-    height: 48px;    
+    height: 60px;    
 }
 
 #countdown{
