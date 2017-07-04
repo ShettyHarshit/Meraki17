@@ -5,7 +5,12 @@ $(document).ready(function () {
  
 })
 //END OF PRELOADER
-
+window.addEventListener("load",function() {
+    setTimeout(function(){
+        // This hides the address bar:
+        window.scrollTo(0, 1);
+    }, 0);
+});
 //START OF COUNTDOWN
 var end = new Date('08/03/2017 10:1 AM');
 
