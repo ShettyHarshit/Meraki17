@@ -5,13 +5,7 @@ $(document).ready(function () {
  
 })
 //END OF PRELOADER
-function hideAddressBar(){
-  if(document.documentElement.scrollHeight<window.outerHeight/window.devicePixelRatio)
-    document.documentElement.style.height=(window.outerHeight/window.devicePixelRatio)+'px';
-  setTimeout(window.scrollTo(1,1),0);
-}
-window.addEventListener("load",function(){hideAddressBar();});
-window.addEventListener("orientationchange",function(){hideAddressBar();});
+
 //START OF COUNTDOWN
 var end = new Date('08/03/2017 10:1 AM');
 
@@ -133,6 +127,11 @@ $(window).resize(function(){
    }
 })
 .resize();
+
+
+$("html, body, #wrapper").css({
+    height: $(window).height()
+});
 
 
 
