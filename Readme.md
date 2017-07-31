@@ -6,8 +6,8 @@
 - [x] Add Contact
 - [x] Add About Info
 - [ ] Add Sponsors
-- [ ] Add Schedule
-- [ ] Add Blog
+- [x] Add Schedule
+- [x] Add Blog
 - [ ] Add Reg
 - [x] Add Events Tabs
 - [x] Add Events Modals
@@ -25,4 +25,3 @@
 ## On frontend
   -  Jquery
   -  Bootstrap
-  -  AngularJs
