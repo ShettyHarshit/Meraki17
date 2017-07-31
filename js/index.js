@@ -7,7 +7,7 @@ $(document).ready(function () {
 //END OF PRELOADER
 
 //START OF COUNTDOWN
-var end = new Date('08/03/2017 10:1 AM');
+var end = new Date('10/09/2017 10:1 AM');
 
     var _second = 1000;
     var _minute = _second * 60;
