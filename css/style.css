@@ -67,6 +67,9 @@ min-height: 100%;
   background-color: #151f20;
 }
 
+.spaceout{
+  height: 30px;
+}
 
 #countdown{
   font-family: 'Oswald', sans-serif;
