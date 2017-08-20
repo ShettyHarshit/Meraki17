@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lobster|Shadows+Into+Light');
 @import url('https://fonts.googleapis.com/css?family=Oswald:300');
@@ -53,7 +54,15 @@ min-height: 100%;
 }
 
 
+.white-text{
+  color: #fff;
+  font-family: 'Kaushan Script', sans-serif;
+  font-size: 22px;
+}
 
+.left-aligned{
+  text-align: left;
+}
 
 .container-fluid {
   width: 100%;
