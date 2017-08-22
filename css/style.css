@@ -53,15 +53,19 @@ min-height: 100%;
   100%{background-position:17% 0%}
 }
 
+blockquote{
+  margin: 20px;
+}
 
 .white-text{
   color: #fff;
-  font-family: 'Kaushan Script', sans-serif;
-  font-size: 22px;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  text-align: justify;
 }
 
 .left-aligned{
-  text-align: left;
+  
 }
 
 .container-fluid {
@@ -429,6 +433,10 @@ footer {
   .fest-name {
     font-size: 64px;
   }
+
+  blockquote{
+  margin: 0px;
+}
 
 /*  .animated {
   position: fixed;
