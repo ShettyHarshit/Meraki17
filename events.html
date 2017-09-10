@@ -1,0 +1,1040 @@
+	<!DOCTYPE html>
+	<html >
+	<head>
+		<meta charset="UTF-8">
+		<title>MERAKI</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/front.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link rel="stylesheet" href="css/event.css">
+		<link rel="stylesheet" href="css/gallery.css">
+		<link rel="stylesheet" href="css/navbar.css">
+		<link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="css/schedule.css">
+
+
+	</head>
+
+	<body>
+		<body>
+			<!--START OF NAV BAR-->
+			<nav class="navbar navbar-inverse navbar-fixed-top">
+
+					<div class="navbar-check">
+
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>                        
+							</button>
+							<div class="prevent"><a class="navbar-brand active tablinks" href="index.html">
+								<img class="wheel" src="http://dataveyes.com/images/logo-wheel.svg"></a>
+
+								<a class="navbar-brand active tablinks" href="index.html"><span class="force-color">MERAKI</span></a>
+
+							</div></div>
+							<div class="collapse navbar-collapse" id="myNavbar">
+							<!-- <ul class="nav navbar-nav navbar-right cl-effect-21"  id="navbar-right-check">
+									<li><a class="tabs tablinks" href="javascript:void(0)" onclick="openCity(event, 'about')">ABOUT</a></li>
+									</ul> -->
+								<ul class="nav navbar-nav navbar-right cl-effect-21"  id="navbar-right-check">
+									<li><a class="" href="about.html">ABOUT</a></li>
+									<li><a class="" href="sched.html">SCHEDULE</a></li>
+									<li><a class="" href="reg.html">REGISTRATION</a></li>
+									<li><a class="" href="events.html" onclick="hideStuff()">EVENTS</a></li>
+									<li><a class="" href="spo.html">SPONSORS</a></li>
+									<li><a class="" href="contact.html">CONTACT</a></li>
+									<li><a class="" href="feed.html">SOCIAL FEED</a></li>
+									<li><a class="" href="blog.html">BLOG</a></li>
+									<li><a class="" href="team.html">TEAM</span></a></li>
+									<li><a class="tabs tablinks team-gap" href="javascript:void(0)"><span class=""></span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					</div>
+					</nav>
+
+					<!--START OF EVENTS-->
+	<div class="tabcontent" id="events">
+		<center>
+			<div class="fest-name">Events</div>
+			<div id="Menu" class="tapcontent">
+				<!-- <div class="event-header">Meraki'17 Events</div> -->
+				<br>
+				<br>
+				<div class="row events-tab">
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'FA')">
+						<img class="event-main-logo" src="images/fa.png">
+						<div class="event-date">Fine Arts events</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'PA')">
+						<img class="event-main-logo" src="images/pa.png">
+						<div class="event-date">Performing Arts events</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'LA')">
+						<img class="event-main-logo" src="images/la.png">
+						<div class="event-date">Literary Arts</div>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Gaming')">
+						<img class="event-main-logo" src="images/gaming.png">
+						<div class="event-date">Gaming</div>
+					</div>
+
+				</div>
+
+			</div>
+			<div id="FA" class="tapcontent">
+				<div class="event-header">Fine Arts events</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#FA1">
+						<img class="event-logo" src="images/shirt.png">
+						<div class="event-date">Glitter with Litter</div>
+					</div>
+
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#FA2">
+						<img class="event-logo" src="images/snapchat.png">
+						<div class="event-date">Snap-art-ing</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#FA3">
+						<img class="event-logo" src="images/bottle.png">
+						<div class="event-date">Beer-ed</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#FA4">
+						<img class="event-logo" src="images/footprint.png">
+						<div class="event-date">Steps and Stains</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#FA5">
+						<img class="event-logo" src="images/chocolate.png">
+						<div class="event-date">Doodles de chocolate</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#FA6">
+						<img class="event-logo" src="images/posternovation.png">
+						<div class="event-date">Posternovation</div>
+					</div>   
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<br>
+						<div id="defaultOpen1"><span class="back-button">Back</span></div>
+						<br>
+						<br>
+						<br>
+					</div>
+
+				</div>
+						<!--Model-->
+		<div class="modal fade" id="FA1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Glitter with Litter</h4>
+					</div>
+					<div class="modal-body">
+						<p><em>&ldquo;Always wanted to create your innovative attire?</em></p>
+						<p><em>Well, here's your chance, but the items are useless and dire</em></p>
+						<p><em>It&rsquo;s not about the brand, it&rsquo;s about the style</em></p>
+						<p><em>Walk down the ramp and slay it with a smile.&rdquo;</em></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Team Composition: 2-3 members, including the Model who will display the designed apparel by walking on a short ramp.</li>
+							<li>Maximum Teams: 20</li>
+							<li>Time Limit: 2 hours, all-inclusive except the ramp walk.</li>
+							<li>The Model must wear a plain black top/shirt and plain black bottoms during the ramp walk.</li>
+							<li>You will be provided with a basic kit, which will include: black cloth,</li>
+							<ul>
+								<ul>
+									<ul>
+										<li>Black cloth (100cm x 80cm)</li>
+										<li>Scissors</li>
+										<li>Fabric glue</li>
+										<li>Safety pins</li>
+										<li>A4 size paper</li>
+										<li>Pencil</li>
+										<li>Measuring Tape</li>
+										<li>A stapler &nbsp;</li>
+									</ul>
+								</ul>
+							</ul>
+							<li>Participants will not be provided with fashion sense, please try to get your own.</li>
+							<li>You have to pick scrap cloth from a box kept on the venue and design the most eye-catching apparel using the scrap cloth and basic kit provided.</li>
+							<li>A ramp walk by the aforementioned model will follow the designing event.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade" id="FA2" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Snap’art’ing</h4>
+					</div>
+					<div class="modal-body">
+						<p><em>&ldquo;Are you a snapchat fanatic?</em></p>
+						<p><em>So get ready for something dramatic</em></p>
+						<p><em>Innovate, create and design a new filter</em></p>
+						<p><em>Something unique, stunning and absolutely killer!&rdquo;</em></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Team composition: 1-2 members. Maximum Teams: 25</li>
+							<li>Time limit: 1 hr.</li>
+							<li>You will be provided with a basic kit, which will include: fevicol, paper, pencil, scissors and a mirror.</li>
+							<li>There will be a box full of random waste and art and craft material. You have to pick required material and use that to create a snapchat filter on yourself or, in case of a team, on any one of the participants.</li>
+							<li>A photo booth will follow the designing event where you can get yourself clicked.</li>
+							<li>Participants making the dog filter might be fed Pedigree and asked, &ldquo;Who&rsquo;s a good boy?&rdquo; by the O.C.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade" id="FA3" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Beer-ed</h4>
+					</div>
+					<div class="modal-body">
+						<p><em>&ldquo;Time to uncork and unwind</em></p>
+						<p><em>So design something detailed and outlined</em></p>
+						<p><em>Spill your emotions, spontaneous and natural</em></p>
+						<p><em>Use your colors and create something magical.&rdquo;</em></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Individual Participation. Maximum Participants: 25</li>
+							<li>Time Limit: 1 hour.</li>
+							<li>A glass bottle and a ceramic cone will be provided.</li>
+							<li>You have to design the glass bottle using the ceramic cone provided. There is no theme.</li>
+							<li>Participants breaking the glass bottle will be asked to dance on the glass pieces while Dharmendra watches from afar. Okay that won&rsquo;t happen but please don&rsquo;t break the glass bottle.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade" id="FA4" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Steps and Stains</h4>
+					</div>
+					<div class="modal-body">
+						<p><em>&ldquo;Forget your brush and palette,</em></p>
+						<p><em>You can even do some Salsa or Ballet</em></p>
+						<p><em>Grab some paint and set your imagination free,</em></p>
+						<p><em>Create a masterpiece for everyone to see.&rdquo;</em></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Individual participation. Maximum participation: 20</li>
+							<li>Time Limit: 45 minutes</li>
+							<li>You are required to paint using your feet on a white chart paper using two colors provided.</li>
+							<li>The theme will be given on the spot.</li>
+							<li>You will be given colors on the basis of chits.</li>
+							<li>Participants heard cracking puns based on feet will be shoed away.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade" id="FA5" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Doodle de Chocolaté</h4>
+					</div>
+					<div class="modal-body">
+						<p><em>&ldquo;Chocolate goes straight to the heart,</em></p>
+						<p><em>Whether it is cheesecake or a truffle tart</em></p>
+						<p><em>Explore your imagination and let your creativity flow,</em></p>
+						<p><em>Draw, paint or sketch, just put on a good show.&rdquo;</em></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Individual Participation. Maximum participation: 25</li>
+							<li>Time limit: 1 hour</li>
+						</ol>
+						<ol>
+							<li>You are required to make a drawing on a White chocolate sheet using chocolate syrup.</li>
+							<li>The theme will be given on the spot.</li>
+							<li>Eating any participant&rsquo;s artwork will not be condoned and will be regarded as cheating, and will result in disqualification. We are serious about this rule.</li>
+							<li>Eating your own artwork will not be regarded as cheating but it may signify you have an addiction.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade custom" id="FA6" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Posternovation</h4>
+					</div>
+					<div class="modal-body">
+						<p><em>&ldquo;Good design is obvious, great design is transparent</em></p>
+						<p><em>So put your thinking caps on and display your talent</em></p>
+						<p><em>Make your poster fresh and unconventional,</em></p>
+						<p><em>Present before us something remarkable and sensational.&rdquo;</em></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Individual Participation. Maximum Participants: 25</li>
+							<li>Time Limit: 1 hour, excluding time involved in photography and printing.</li>
+							<li>You have to design an ad poster for a product where you will model for the product.</li>
+							<li>You will be given a product after registration. Your picture will be clicked which you have to use to sketch an advertisement of the product provided. Color printouts of the picture will be given on the spot.</li>
+							<li>You will be given a basic kit, which will include: black marker, sketch pen set, pencil, A4 size paper, eraser and sharper.</li>
+							<li>Participants that make unreasonable, unscientific claims while exploiting people&rsquo;s insecurities in their poster will be hired as advertisers for fairness brands.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+			</div>
+
+
+
+			<div id="PA" class="tapcontent">
+				<div class="event-header">Performing Arts events</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#PA1">
+						<img class="event-logo" src="images/ballet.png">
+						<div class="event-date">Offbeat</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#PA2">
+						<img class="event-logo" src="images/video-player.png">
+						<div class="event-date">Motion Picture</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#PA3">
+						<img class="event-logo" src="images/ear.png">
+						<div class="event-date">Tone Deaf</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#PA4">
+						<img class="event-logo" src="images/clown.png">
+						<div class="event-date">Show me the funny</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#PA5">
+						<img class="event-logo" src="images/karaoke.png">
+						<div class="event-date">Do you even Karaoke?</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<br>
+						<div><span class="back-button">Back</span></div>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div> 
+
+
+
+			</div>
+		</center>
+
+		<!-- Modal -->
+		<div class="modal fade" id="PA1" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Offbeat</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Group Dance event. Teams must DEPICT A STORY through their dance.</b></p>
+						<p><strong>Rules</strong>:</p>
+						<ol>
+							<ol>
+								<li>Team Composition : 4-8 participants.</li>
+								<li>Maximum Teams : 15</li>
+								<li>Time Limit : 5 minutes. Negative Marking per second exceeding the time limit.</li>
+								<li>Teams must email their soundtrack to Meraki17.pa@gmail.com at least 7 days prior to the commencement of the Event. Soundtrack must be in MP3 or FLAC format only.</li>
+								<li>Props are allowed. The teams must inform the organisers regarding the props to be used at least 7 days prior to the commencement of the Event.</li>
+								<li>Judging Criteria:</li>
+								<ul>
+									<li>Choreography</li>
+									<li>Story</li>
+									<li>Energy</li>
+									<li>Expressions</li>
+									<li>Stage utilization</li>
+									<li>Costume</li>
+								</ul>
+								<li>Please note &ldquo;Right leg aage aage, left leg peeche peeche&rdquo; is not a convenient dance move and may lead to injury in sensitive areas.</li>
+							</ol>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA2" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Motion Picture</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Solo drama event. &nbsp;People who are able to act like they are paying attention in an 8 a.m lecture on a Monday morning are urged to participate in this event.</b></p>
+						<p>&nbsp;</p>
+						<p><strong>Round 1: Elimination</strong></p>
+						<p>The participants have to perform any monologue, original or otherwise.</p>
+						<p>Rules:</p>
+						<ol>
+							<li>Individual participation. Maximum participants: 25</li>
+							<li>Time Limit - 4 minutes.</li>
+							<li>Judging Criteria:</li>
+							<ul>
+								<li>Acting</li>
+								<li>Characterization</li>
+								<li>Overall impact</li>
+							</ul>
+							<li>Six Participants will qualify for Final Round.</li>
+						</ol>
+						<p><strong>Round 2 - Finals</strong></p>
+						<p>You will be given an emotion you need to portray. Then you will be allotted acting area or &lsquo;block.&rsquo; At the beginning, you must stay frozen in a position you choose. Then, The Judge will walk up to you or any other performer and signal to start performing through a bell. At any point in the performance The Judge will signal you to stop, through the same bell and you must freeze in that position.</p>
+						<p>The Judge could move on to another performer where he might do the same and &lsquo;pause&rsquo; the performer halfway through and return to you. You must then continue the piece from where it was left off.</p>
+						<p>Rules:</p>
+						<ol>
+							<li>No props will be allowed.</li>
+							<li>You will get 30 minutes of prep time. The last 5 minutes of which will be a short rehearsal.</li>
+							<li>Time Limit : 4 minutes.</li>
+							<li>Judging criteria:</li>
+							<ul>
+								<li>Acting</li>
+								<li>Characterization</li>
+								<li>Command over body (freezing/unfreezing)</li>
+								<li>Portrayal</li>
+								<li>Overall impact</li>
+							</ul>
+							<li>No extra points will be given to Actors residing in Lokhandwala.</li>
+							<li>The actors are not allowed to come out of their Blocks during their performance.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA3" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Tone Deaf</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Band event. You will have to take any pop song and change the genre of the song to any other distinctly different genre. (For example from pop to jazz)</b></p>
+						<p>&nbsp;</p>
+						<p><strong>Rules:</strong></p>
+						<ol>
+							<li>Team Composition: 3-6 members. Maximum teams: 15</li>
+							<li>Time limit: 5 minutes. Amazing, heavenly and/or mind blowing hour long guitar/drum solos will not be condoned.</li>
+							<li>Teams must submit the name of the song they plan to perform as well as the genre they plan to change it to, at least a week prior to commencement of the event.</li>
+							<li>A standard Drum set will be provided. Standard Amps will also be provided.</li>
+							<li>The lyrics of the song must remain the same. No radical change in the lyrics (omission of the chorus, omission of entire verses etc.) will be allowed. Omission of expletives or obscene sentences is permitted.</li>
+							<li>No vulgarity, obscenity or profanity will be allowed.</li>
+							<li>Judging Criteria:</li>
+							<ul>
+								<ul>
+									<li>Quality of performance</li>
+									<li>Adherence to theme</li>
+									<li>Overall impact</li>
+								</ul>
+							</ul>
+							<li>Participants are also hereby informed that music puns are plain treble.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA4" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Show me the funny</h4>
+					</div>
+					<div class="modal-body">
+						<ul>
+							<b><p>Duration: 2-2.5 hours</p>
+							<p>Description: Improv comedy event</p></b>
+                             <b>Rules:</b> 
+								<li>This is an improv comedy event with three rounds of three different games which are on the lines of the show “Whose Line is it Anyway?”</li>
+								<li>The three rounds will test the participant’s improvisational skills, wit, humour and how many rickshaws he/she can catch in under an hour. The last one isn’t actually a requirement but if your answer was 1 or more then either you’re a liar or a God.</li>
+								<li>Each registering team should consist of two participants.</li>
+								<li>The rules of the games will be announced at the event. At the end of each round a certain number of teams will be eliminated. </li>
+								<li>Obscenity will not be condoned.</li>
+								<li>Maximum number of teams: 20</li>
+								<li>Judging criteria: Comic timing, Humour, Acting.</li> 
+
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- Modal -->
+		<div class="modal fade" id="PA5" role="dialog">
+			<div class="modal-dialog">
+
+				<!-- Modal content-->
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Do you even Karaoke?</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Solo singing event</b></p>
+						<p><b>Round 1: Elimination</b></p>
+						<p><b>For reasons we can't explain, Round 1 is a non-karaoke round. Singers can sing any song of their choice.</b></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Solo Participation. Maximum Participation: 20</li>
+							<li>Time Limit: 4 minutes. Negative Marking per second exceeding the time limit.</li>
+							<li>A backup track is allowed. Participants must email their soundtrack to Meraki17.pa@gmail.com at least 7 days prior to the commencement of the Event. Soundtrack must be in MP3 or FLAC format only.</li>
+							<li>No vulgarity, obscenity or profanity will be allowed.</li>
+							<li>Judging criteria: &nbsp;</li>
+							<ul>
+								<li>Quality of singing</li>
+								<li>Vocal range</li>
+								<li>Selection of song</li>
+								<li>Overall impact</li>
+							</ul>
+							<li>The 8 highest scoring participants will qualify for Finals.</li>
+							<li>All participants are further requested to choose 2 songs, and email the YouTube URL of the Karaoke version of the songs at least a week before the event.</li>
+							<li>While bathroom singers are urged to participate, they are to refrain from performing in a towel and/or a showercap.</li>
+						</ol>
+						<p>Round 2:</p>
+						<ol>
+							<li>The qualifying singers will pick a chit which will decide which one of the two songs they must perform on stage.</li>
+							<li>The karaoke video will then be played and the singer will have to sing along.</li>
+							<li>The time limit for this is a maximum of 6 minutes.</li>
+							<li>Judging criteria: &nbsp;Quality of singing , Vocal range, Musical timing, overall impact.</li>
+							<li>Participants please note: Exceptional singers may cause Anu Malik to appear and tell them &ldquo;Tu aag laga dega, aag laga dega tu.&rdquo;</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		
+
+
+
+
+		<center>
+			<div id="LA" class="tapcontent">
+				<div class="event-header">Literary Arts</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#LA1">
+						<img class="event-logo" src="images/speech.png">
+						<div class="event-date">Block and Tackle</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#LA2">
+						<img class="event-logo" src="images/pencil-case.png">
+						<div class="event-date">Doomsday</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#LA3">
+						<img class="event-logo" src="images/superhero.png">
+						<div class="event-date">FANDO-OMED</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#LA4">
+						<img class="event-logo" src="images/ufo.png">
+						<div class="event-date">Tale in a Tweet</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#LA5">
+						<img class="event-logo" src="images/eye.png">
+						<div class="event-date">Lekh Abhilekh</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#LA6">
+						<img class="event-logo" src="images/thinking.png">
+						<div class="event-date">Bam - Bas Ek Minute</div>
+					</div>   
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#LA7">
+						<img class="event-logo" src="images/poetry.png">
+						<div class="event-date">Poetry Slam</div>
+					</div>  
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<br>
+						<div><span class="back-button">Back</span></div>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
+						<!--Model-->
+		<div class="modal fade" id="LA1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Block and Tackle </h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Can you block possible defences of your opponent and then tackle the very defences you built? This event spells trouble so prep your languages, arguments and get ready to take down the very defences you build!</b></p>
+						
+						<p><strong>Rules:</strong></p>
+						<ol>
+							<li>Per Speaker Time - Two minutes.</li>
+							<li>Individual Participation. Maximum Participants - 12</li>
+							<li>The participants are required to have a basic command over Hindi and English language.</li>
+							<li>This is an impromptu event and the topics will be given on the spot with little or no time to prepare.</li>
+							<li>OC decision will be final in case of any dispute or confusion.</li>
+							<li>No electronic devices are allowed.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+		<!--Model-->
+		<div class="modal fade" id="LA2" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Doomsday</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>It’s the day of final verdict. Words is all it will take to decide between glory and a lifetime of shunning. Can you convince and tilt the last judgement in your favour despite your coloured past?</b></p>
+						<p><strong>Rules:</strong></p>
+						<ol>
+							<li>Individual Participation. Maximum Participants-18</li>
+							<li>Word limit - 500 words</li>
+							<li>Time limit - 45 minutes</li>
+							<li>Write-ups will be judged on-</li>
+							<ul>
+								<li>Persuasion Level</li>
+								<li>Creativity</li>
+								<li>Uniqueness</li>
+								<li>Clarity of thought</li>
+								<li>Originality of content</li>
+								<li>Structure of sentences and write-up.</li>
+							</ul>
+							<li>No electronic devices are allowed.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade" id="LA3" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">FANDO-OMED</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>It’s the day every fan awaits. In a race against time and competitive fans, enjoy the thrill of an auction of your favourite superheroes and legendary comic characters along with contemporary present day favourites like Joey, Harvey, Donna, Cersie Lannister and lots more. Somewhere along your wild expectations and reality, spin a tale with the pair you bag.</b></p>
+						<p>&nbsp;</p>
+						<p><strong>Rules:</strong></p>
+						<ul>
+<li>Team must comprise of 2 participants. Maximum Teams : 12</li>
+<li>Time Limit : 45 minutes</li>
+<li>Minimum Word Limit : 300</li>
+<li>The story will be judged on the following criteria:&nbsp;
+<ul>
+<li>Creativity</li>
+<li>Contrast of nature of characters</li>
+<li>Vocabulary</li>
+<li>Structure</li>
+<li>Overall effect</li>
+</ul>
+</li>
+<li>Teams are not allowed to place bids which are greater than the balance they hold. Any team that tries to do this will be sat down by our Finance team and given a stern talk on money management.</li>
+<li>Each team must buy at least two characters.</li>
+<li>Altairian Dollars saved in Round 1 will convert to points. <br />Character listed the auction and purchased by other teams cannot be featured in the story. Passing reference for character building is allowed.<br />No use of electronic devices is allowed.</li>
+</ul>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+		<!--Model-->
+		<div class="modal fade" id="LA4" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Tale in a Tweet</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Look. You have one word to write the funniest/sweetest/creepiest/bravest fictional tale. One shot. One opportunity. To seize everything you ever wanted. In one moment. Would you capture it? Or just let it slip?</b></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Writing time : 30-45 minutes.</li>
+							<li>Individual Participation. Maximum Participants - 30</li>
+							<li>There will be three words. You must choose any 1 of them.</li>
+							<li>The character limit is just 140 characters not including spaces, because here it's not about the size, it's about how you use it. Punctuations are characters.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+		<!--Model-->
+		<div class="modal fade" id="LA5" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Lekh Abhilekh</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>A mere race against the clock is so passé! Try racing your grey cells and those of your partner while spinning threads of your thoughts and racing against time. For the first time ever, enjoy a writer’s relay which will not only keep your brains and fingers running but will also test your patience and continuity.</b></p>
+						<p><strong>Rules:</strong></p>
+						<ol>
+							<li>Language : Hindi in Devanagri or Latin script only</li>
+							<li>Team must comprise of 2 participants. Maximum Teams : 12</li>
+							<li>The time taken to shift between the writers is not included in the writing time.</li>
+							<li>The final writeup will be judged on the following criteria-</li>
+							<ul>
+								<li>Flow of the story</li>
+								<li>Creativity and Originality</li>
+								<li>Grammar and vocabulary</li>
+							</ul>
+							<li>No extra marks will be given for good handwriting, but in exceptional cases the O.C. might give you a tiny golden star.</li>
+							<li>No electronic devices are allowed.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+		<!--Model-->
+		<div class="modal fade" id="LA6" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Bam - Bas Ek Minute</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>This is Just A Minute (JAM) in Hindi. No deviation. No repetition. No hesitation. No taxation without representation. So, don't jumble ideas, or drag the point, or pause too much, or shy away from expressing your ideas.</b></p>
+						<p>You will not be given any time to prep. It is purely spontaneous. Therefore, any participant found using time stopping/time-travelling machines will be negatively marked, after a fist bump.</p>
+						<p>Rules:</p>
+						<ol>
+							<li>Individual Participation. Maximum Participants - 15</li>
+							<li>Speaker Time - 1 minute. Duh.</li>
+							<li>Language: Hindi. </li>
+							<li>Every round has a theme, which is decided by the Jam-master. For example disconnect round, where every subsequently spoken sentence must not have any relation to the previously spoken one.</li>
+							<li>Objections are permitted by other participants if it is felt that the speaker does not stick to the topic or any similar issue. JAM-Master's decision will be final and binding.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+		<!--Model-->
+		<div class="modal fade" id="LA7" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Poetry Slam</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>This is an authentic poetry slam event where poets will congregate and share their original works with the esteemed judges and the best 3 poems will be awarded. </b></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Individual Participation. Maximum Participants - 12</li>
+							<li>The poems can be about anything; however, they must be submitted to Meraki17.pa@gmail.com, latest by 11:59pm, 7th October,2017. Subject of the mail should be - "POETRY SLAM XXXX" (XXXX=your college code). For further details please contact OC.</li>
+							<li>You will get maximum 3 minutes to recite the poem, and a grace period of 10 seconds.</li>
+							<li>No costumes, props or musical instruments will be allowed for the recitation.</li>
+							<li>You can refer to a paper, phone or laptop while reciting the poem.</li>
+							<li>No vulgar/objectionable poems will be entertained. The O.C. will disqualify these poems at discretion. However, you may submit an alternate poem if your poem has been disqualified.</li>
+							<li>Being a poet and not even knowing it will not be condoned.</li>
+							<li>Strictly no plagiarism.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+			</div>
+
+
+
+
+
+			<div id="Gaming" class="tapcontent">
+				<div class="event-header">Gaming</div>
+				<div class="row events-tab">
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop"  data-toggle="modal" data-target="#GE1">
+						<img class="event-logo" src="images/football.png">
+						<div class="event-date">FIFA 17</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#GE2">
+						<img class="event-logo" src="images/rifle.png">
+						<div class="event-date">COD Black Ops 3</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#GE3">
+						<img class="event-logo" src="images/shotgun.png">
+						<div class="event-date">Mini Militia 2</div>
+					</div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 photo-prop" data-toggle="modal" data-target="#GE4">
+						<img class="event-logo" src="images/pool.png">
+						<div class="event-date">Pool Football</div>
+					</div>
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 photo-prop pointer-on-hover taplinks" onclick="openEvent(event, 'Menu')">
+						<br>
+						<div><span class="back-button">Back</span></div>
+						<br>
+						<br>
+						<br>
+					</div>
+				</div>
+			</div>
+		</center>
+		<!--Model-->
+		<div class="modal fade" id="GE1" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">FIFA 17!</h4>
+					</div>
+					<div class="modal-body">
+						<p><p>FIFA 17</p></p>
+						<p>Rules:</p>
+						<ol>
+							<li>Maximum participants - 32</li>
+							<li>Knockout Format</li>
+							<li>Duration of each match: 8 mins (4 min per half)</li>
+							<li>In case of a draw, penalties will be played to decide the winner.</li>
+							<li>Missing open goals will not attract negative marking however it might attract shame and laughter.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+		<!--Model-->
+		<div class="modal fade" id="GE2" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">Call Of Duty BLACK OPS 3 </h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Call of Duty</b></p>
+						<p><strong>Rules: </strong></p>
+						<ol>
+							<li>Maximum participants - 24</li>
+							<li>Knockout format</li>
+							<li>Death match - Duration of each match 5 minutes. In Semi Finals and Finals only, duration will be 7 minutes.</li>
+							<li>In case of a draw, another 3 minute match will be played. In Semi Finals and Finals only, a 5 minute match will be played.</li>
+							<li>Anyone heard saying "Videogames cause violent behavior" will be condescendingly laughed upon.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade" id="GE3" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">MINI MILITIA 2</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Mini Militia 2</b></p>
+						<p><strong>Rules: </strong></p>
+						<ol>
+							<li>Knockout format</li>
+							<li>IPad tablets will be provided on the spot.</li>
+							<li>Teams must comprise of 2 participants. Maximum Teams - 16</li>
+							<li>Anyone heard saying "Candy Crush is better" will be disqualified.</li>
+							<li>Duration of a match: 6:30 min</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+				<!--Model-->
+		<div class="modal fade" id="GE4" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h4 class="modal-title">POOL FOOTBALL</h4>
+					</div>
+					<div class="modal-body">
+						<p><b>Ever wanted to play pool using your feet when not on questionable substances? Here's your chance.</b></p>
+						<p><strong>Rules:</strong></p>
+						<ol>
+							<li>Matches will be one on one. Maximum participants : 24</li>
+							<li>Knockout Format.</li>
+							<li>The duration of each match will be dependent upon participants potting all their balls. There will be 8 Balls and 1 cue ball.</li>
+							<li>Kicking the cue ball outside the table or against the limits allowed by the Referee will be regarded as a foul.</li>
+							<li>The "Pool" mentioned here does not mean a swimming pool. Participants should refrain from coming in swimming costumes.</li>
+						</ol>
+					</div>
+					<div class="modal-footer">
+						<div data-dismiss="modal"><span class="close-button">Close</span></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--/Model-->
+		<footer class="footer footer-text" id="footer">Designed by Harshit Shetty & Adit Patil
+							</footer>
+	</div>
+	<!--END OF EVENTS-->
+
+
+	</body>
+
+
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+<script src="js/events.js"></script>
+<script src="particles.js"></script>
+<script src="js/app.js"></script>
+<script>
+	$(window).resize(function(){
+   var width = $(window).width();
+   if(width < 768){
+       $('#navbar-right-check').removeClass('cl-effect-21');
+       $('.ref').removeAttr('id');
+       console.log('works');
+   }
+})
+.resize();
+
+$(document).ready(function () {  
+  $(window).on("load",function(){
+    $('#loader-wrapper').delay(1000).fadeOut(500);
+    hideStuff();
+  })
+ 
+})
+
+window.onload = function() {
+	hideStuff();
+	};
+</script>
+</body>
+</html>
+
+
+
+
+			

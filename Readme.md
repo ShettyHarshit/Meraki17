@@ -8,7 +8,6 @@
 - [ ] Add Sponsors
 - [x] Add Schedule
 - [x] Add Blog
-- [x] Add Social Feed
 - [ ] Add Reg
 - [x] Add Events Tabs
 - [x] Add Events Modals
@@ -16,7 +15,7 @@
 - [x] Add Gallery
 - [ ] Page Transitions
 - [ ] Tabs to Routing
-- [ ] Back To Top
+- [x] Add Gallery
 
 
 
